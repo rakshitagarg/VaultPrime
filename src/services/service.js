@@ -223,13 +223,13 @@ exports.email_ser = async (req, res) => {
     const transporter = nodemailer.createTransport({
       service: "gmail",
       auth: {
-        user: "rishabhchauhan9307@gmail.com",
-        pass: "koxh ugaf abdv eqea",
+        user: "vaultprime197@gmail.com",
+        pass: "pqlj vzeu iesa tobt",
       },
     });
 
     const mailOptions = {
-      from: "rishabhchauhan9307@gmail.com",
+      from: "vaultprime197@gmail.com",
       to: `${mail}`,
       subject: "Your OTP for Gmail Verification",
       text: `Your OTP is :${otp}`,
